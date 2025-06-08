@@ -1,6 +1,6 @@
 trigger:
  -master
- pool: 
+pool: 
   name: Default
 steps:
    -script: gradle build
