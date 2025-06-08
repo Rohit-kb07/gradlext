@@ -1,0 +1,9 @@
+trigger:
+ -master
+ pool: 
+  name: Default
+steps:
+   -script: gradle build
+   displayName: 'gradle build'
+   -script: gradle tasks
+   displayname: 'running tasks'
