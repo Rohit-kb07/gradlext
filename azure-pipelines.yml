@@ -4,6 +4,6 @@ pool:
   name: Default
 steps:
    -script: gradle build
-     displayName: 'gradle build'
+   displayName: 'gradle build'
    -script: gradle tasks
-     displayName: 'running tasks'
+   displayName: 'running tasks'
