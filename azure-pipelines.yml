@@ -6,4 +6,4 @@ steps:
    -script: gradle build
    displayName: 'gradle build'
    -script: gradle tasks
-   displayname: 'running tasks'
+   displayName: 'running tasks'
