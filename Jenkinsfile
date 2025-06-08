@@ -8,7 +8,7 @@ pipeline{
 	stages{
 	    stage('checkout'){
 		steps{
-		git branch :master ,url:'https://github.com/Rohit-kb07/gradlext.git
+		git branch : 'master' ,url:'https://github.com/Rohit-kb07/gradlext.git'
 '
 		}
 	     }
